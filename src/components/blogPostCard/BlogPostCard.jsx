@@ -2,6 +2,7 @@ import { Button } from '@material-tailwind/react'
 import React, { useContext } from 'react'
 import myContext from '../../context/data/myContext';
 import { useNavigate } from 'react-router';
+import { Link } from 'react-router-dom';
 
 function BlogPostCard() {
   const context = useContext(myContext);
